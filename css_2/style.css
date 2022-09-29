@@ -3,6 +3,8 @@
 /* univarsal selector */
 *{
     background-color: red;
+    font-size: 20px;
+    /* font-size: 1rem; */
 }
 /* type selector */
 p{
@@ -26,10 +28,17 @@ p{
 /* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators */
 div p{
     background-color: pink;
+    font-family: "Helvetica Neue","Arial",sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 2px;
+
 }
 
 div .parent1{
     background-color: transparent;
+    font-weight: bold;
 }
 
 p ~ span{
