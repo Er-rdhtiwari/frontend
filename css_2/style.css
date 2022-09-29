@@ -1,0 +1,57 @@
+/* selectors */
+/* https://www.w3schools.com/css/css_selectors.asp */
+/* univarsal selector */
+*{
+    background-color: red;
+}
+/* type selector */
+p{
+    background-color: green;
+}
+/* class:starts with . */
+.para2{
+    background-color: white;
+    color: red;
+}
+/* id: starts with # */
+#abc{
+    background-color: yellow;
+    color: blue;
+}
+/* grouping selector */
+
+
+/* combinators */
+/* https://www.w3schools.com/css/css_combinators.asp */
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators */
+div p{
+    background-color: pink;
+}
+
+div .parent1{
+    background-color: transparent;
+}
+
+p ~ span{
+    color: white;
+    background-color: blue;
+}
+
+/* pseudo class */
+/* like hand reflecton on button on hover */
+button{
+    background-color: white;
+}
+button:hover{
+    background-color: blue;
+}
+
+/* pseudo eliments */
+p::first-letter{
+    font-size: 20px;
+    color: greenyellow;
+}
+
+
+
+
