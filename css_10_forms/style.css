@@ -1,0 +1,40 @@
+.form{
+    width: 200px;
+    margin: 0 auto;
+
+    background-color: rgba(65, 46, 46, 0.123);
+
+    padding: 40px;
+
+}
+
+.form > div {
+    margin: 10px;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    border: 0ch;
+}
+
+.button{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 6%;
+
+    outline: none;
+    background-color: transparent;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+button:hover{
+    color: red;
+    background-color: antiquewhite;
+
+}

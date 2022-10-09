@@ -1,0 +1,55 @@
+.ball{
+    height: 200px;
+    width: 200px;
+    
+    background-color: red;
+    border-radius: 100%;
+
+    margin: 0 auto;
+    margin-top: 200px;
+
+    animation: 2s alternate 0.5s infinite bounce;
+    
+}
+
+@keyframes bounce {
+    /* from{
+        margin-top: 0px;
+    } */
+    20% {
+        margin-top: 0px;
+    }
+    20%{
+        background-color:rgba(0, 128, 0, 0.075);
+        width: 100px;
+    }
+    to{
+        margin-top: 500px;
+        background-color: yellow;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
